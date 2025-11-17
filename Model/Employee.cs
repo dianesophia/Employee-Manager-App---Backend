@@ -17,8 +17,7 @@ namespace Employee_Manager_System_App.Model
         public string Email { get; set; }
 
         [Required]
-        [MaxLength(10)]
-        [MinLength(10)]
+        [Phone]
         public string ContactNo { get; set; }
         public string Position { get; set; }
         public string Department { get; set; }
