@@ -71,3 +71,14 @@ The API will be available at:
 ```bash
 https://localhost:7175/api/Employee
 ```
+
+
+## Notes
+
+Stored Procedures: All CRUD operations are executed via stored procedures for security and maintainability.
+
+Do Not Run EF Core Migrations if you deleted the Migrations folder or rely solely on stored procedures, as it may overwrite tables or break procedures.
+
+Ensure SQL Server is running before starting the backend.
+
+Include any SQL scripts required to create tables and stored procedures when sharing the project.
