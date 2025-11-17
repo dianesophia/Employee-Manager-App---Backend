@@ -1,6 +1,6 @@
 # Employee Manager Backend
 
-This is the backend for the Employee Manager application. It provides a RESTful API to **create**, **update**, **view**, and **delete** employees. Built with **.NET 8**, **C#**, and **Entity Framework Core**, using **SQL Server** as the database.
+This is the backend for the **Employee Manager** application. It provides a RESTful API to **create**, **update**, **view**, and **delete** employees using **stored procedures** in SQL Server. Built with **.NET 8**, **C#**, and **Entity Framework Core**, it connects to a SQL Server database to execute all data operations through stored procedures instead of direct table queries.
 
 ---
 
