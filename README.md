@@ -52,12 +52,13 @@ Edit the `appsettings.json` file to match your SQL Server setup:
 ---
 3. **Create the Database**
 
-Using Package Manager Console in Visual Studio:
+Open **SQL Server Management Studio (SSMS)** or any SQL tool of your choice, then:
 
-```bash
-Add-Migration InitialCreate
-Update-Database
-```
+1. Create a new database (e.g., `EmployeeDb`).
+2. Navigate to the `DatabaseScripts` folder inside this project.
+3. Execute the SQL scripts
+
+> ⚠️ Since the project uses stored procedures, **do not run EF Core migrations**. The SQL scripts handle all database setup.
 
 ---
 4. **Run the Backend**
